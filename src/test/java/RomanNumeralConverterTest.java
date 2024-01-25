@@ -11,7 +11,7 @@ public class RomanNumeralConverterTest {
     @Test
     public void romanNumeralOutOfRangeTest(){
         int input = 4000;
-        Assertions.assertEquals("input out of range", test.romanNumeralConvert(input));
+        Assertions.assertEquals("input out of range (1 - 3,999)", test.romanNumeralConvert(input));
     }
     @Test
     public void romanNumeralTest9(){
