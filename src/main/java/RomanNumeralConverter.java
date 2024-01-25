@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class RomanNumeralConverter {
     public String romanNumeralConvert(int input){
         if(input > 3999 || input < 1){
-            return "input out of range";
+            return "input out of range (1 - 3,999)";
         }
         HashMap<Integer, String> romanNumerals = new HashMap<>()
         {{
